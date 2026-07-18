@@ -28,9 +28,13 @@
 
 #Dictionaries | Stores key-value pairs | a lookup table where every piece of data has a name
 
-contact = {"name": "Amara", "phone": "071 234 5678"}
-print(contact["name"])
-print(contact.get("Address"))  # get() method returns None if the key does not exist instead of throwing an error
-print(contact.keys())
-print(contact.values())
-print(contact.items())
+# contact = {"name": "Amara", "phone": "071 234 5678"}
+# print(contact["name"])
+# print(contact.get("Address"))  # get() method returns None if the key does not exist instead of throwing an error
+# print(contact.keys())
+# print(contact.values())
+# print(contact.items())
+
+
+students = ['Amara', 'Sipho', 'Lerato']
+print(len(students))
